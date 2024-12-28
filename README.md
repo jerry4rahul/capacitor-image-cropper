@@ -5,7 +5,7 @@ A Capacitor plugin designed specifically for Android and iOS platforms. It enabl
 ## Install
 
 ```bash
-npm install y
+npm install capacitor-image-cropper
 npx cap sync
 ```
 
@@ -13,8 +13,8 @@ npx cap sync
 
 <docgen-index>
 
-- [`crop(...)`](#crop)
-- [Interfaces](#interfaces)
+* [`crop(...)`](#crop)
+* [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -33,9 +33,11 @@ crop(options: CropOptions) => Promise<CropResult>
 
 **Returns:** <code>Promise&lt;<a href="#cropresult">CropResult</a>&gt;</code>
 
----
+--------------------
+
 
 ### Interfaces
+
 
 #### CropResult
 
@@ -43,6 +45,7 @@ crop(options: CropOptions) => Promise<CropResult>
 | ------------ | ------------------- |
 | **`path`**   | <code>string</code> |
 | **`base64`** | <code>string</code> |
+
 
 #### CropOptions
 
