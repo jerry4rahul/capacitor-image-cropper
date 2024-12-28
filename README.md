@@ -11,9 +11,50 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`crop(...)`](#crop)
+* [Interfaces](#interfaces)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### crop(...)
+
+```typescript
+crop(options: CropOptions) => Promise<CropResult>
+```
+
+| Param         | Type                                                |
+| ------------- | --------------------------------------------------- |
+| **`options`** | <code><a href="#cropoptions">CropOptions</a></code> |
+
+**Returns:** <code>Promise&lt;<a href="#cropresult">CropResult</a>&gt;</code>
+
+--------------------
+
+
+### Interfaces
+
+
+#### CropResult
+
+| Prop         | Type                |
+| ------------ | ------------------- |
+| **`path`**   | <code>string</code> |
+| **`base64`** | <code>string</code> |
+
+
+#### CropOptions
+
+| Prop              | Type                |
+| ----------------- | ------------------- |
+| **`source`**      | <code>string</code> |
+| **`quality`**     | <code>number</code> |
+| **`width`**       | <code>number</code> |
+| **`height`**      | <code>number</code> |
+| **`aspectRatio`** | <code>number</code> |
+
 </docgen-api>
