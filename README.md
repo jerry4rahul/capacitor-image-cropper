@@ -1,4 +1,4 @@
-# y
+# Capacitor Image Cropper
 
 A Capacitor plugin designed specifically for Android and iOS platforms. It enables users to easily crop images with intuitive controls, offering seamless integration for mobile app development. Ideal for applications requiring on-device image editing.
 
@@ -13,8 +13,8 @@ npx cap sync
 
 <docgen-index>
 
-* [`crop(...)`](#crop)
-* [Interfaces](#interfaces)
+- [`crop(...)`](#crop)
+- [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -33,11 +33,9 @@ crop(options: CropOptions) => Promise<CropResult>
 
 **Returns:** <code>Promise&lt;<a href="#cropresult">CropResult</a>&gt;</code>
 
---------------------
-
+---
 
 ### Interfaces
-
 
 #### CropResult
 
@@ -45,7 +43,6 @@ crop(options: CropOptions) => Promise<CropResult>
 | ------------ | ------------------- |
 | **`path`**   | <code>string</code> |
 | **`base64`** | <code>string</code> |
-
 
 #### CropOptions
 
